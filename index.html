@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RPS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section id="main-container">
+		<label>ROCK,PAPER,SCISSORS?</label>
+		<div class="choice-box">
+			<input id="rock" type="button" value="rock">
+			<input id="paper" type="button" value="paper">
+			<input id="scissors" type="button" value="scissors">
+		</div>
+	<div class="result-box">
+		<p>Your current result: <span id="current-result1">0</span></p>
+		<p>The computers current result: <span id="current-result2">0</span></p>
+		<p>Draws: <span id="draws">0</span></p>
+		<p>Winner: <span id="winner"></span></p>
+	</div>
+	<input type="button" value="new game" onclick="clearData();">
+	</section>
+	<script src="script.js"></script>
+
+</body>
+</html>
